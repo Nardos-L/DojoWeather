@@ -1,0 +1,136 @@
+
+.nav {
+    background-color:rgb(160,198,248);
+    height: 80PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+    
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.day {
+    width: 50px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #dae4e6;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 900px;
+}
+.day {
+    width: 150px;
+    height: 300px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#cookie {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+}
+
+.fixed {
+    display: flex;
+    width: 770px;
+    height: 100px;
+    border: 2px solid black;
+    margin: auto;
+    position: fixed;
+    top:66%;
+    left: 25%; 
+    background-color: #dae4e6;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.one-div {
+    margin: 0px 30% 0px 20px;
+}
+
+.accept {
+    width:80px;
+    height: 30px;
+    margin-top: 20px;
+
+}
+.read-more {
+    width:100px;
+    height:30px;
+    border: none;
+    text-decoration: underline;
+    background: none;
+    color: blue;
+    cursor: pointer;
+}
+
+.city {
+    display: flex;
+    margin: auto;
+    width: 790px;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.select-right {
+    display: flex;
+    position: relative;
+    left: 60%;
+}
+.select-right p{
+    margin-right: 15px;
+}
+
+.stop {
+    font-weight: bold;
+}
+.accept button {
+    background-color: rgb(160,198,248);
+    border: 2px solid black;
+    box-shadow: 2px 3px;
+}
+.nav h1 {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 50px;
+}
+.nav button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color:#fff;
+    font-size: 20px;
+    margin: 0px 70px 0px 70px;
+}
+.city h2 {
+    font-family: cursive;
+}
+.red {
+    color: red;
+    font-weight: bold;
+}
+.blue {
+    color: blue;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.both-temperature {
+    display: flex;
+    align-items: center;
+}
